@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Sports Survey</h1>
+    <img src="/istockphoto-949190736-612x612.jpg" height="285" alt="this is a sports image">
+    <p id="description"><i>Sports are defined as physical or mental exertion by individuals and are committed to maintaining physical or mental fitness. There are many types of exercise that can be practiced  as a healthy habit, such as walking, riding, Swimming, or athletics, and these sports have many benefits on the human body and mind.Sport make the body ideal, consistent, and healthy, as it strengthens it, and fights obesity. Prevention of many diseases, including: Obesity, which is a cause of other diseases, such as: Diabetic cartilage disease, diabetes and high blood pressure. </i></p>
+    <form action="" id="survey-form">
+        <label id="name-label"> Name: </label>   
+            <input type="name"  id="name" required placeholder="Your name"><br>
+        <label id="email-label"> Email: </label>     
+            <input type="email" id="email" required placeholder="abc@gmail.com"><br>
+        <label id="number-label"> Number: </label>     
+            <input  type="number" name="number" id="number" min="0" max="20" required placeholder="$"><br>
+            
+            
+            <select name="Indoor sports" id="dropdown">
+                <option value="carrom">Carrom</option>
+                <option value="chess">Chess</option>
+                <option value="table tenis">Table tenis</option>
+                <option value="ludo">Ludo</option>
+                <option value="other">Other</option>
+              </select>
+
+              <br>
+
+                <input type="radio" id="html" name="fav_sports" value="Outdoor_Sports">
+                <label for="html">Outdoor_Sports</label><br>
+                <input type="radio" id="css" name="fav_Sports" value="Indoor_Music">
+                <label for="css">Indoor_Sports</label><br>
+               
+                <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">Sachin</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Biswanathan Anand </label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">A.Maria Irudayam</label><br>
+           
+
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+            
+                </textarea><br>
+
+        <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
